@@ -38,14 +38,16 @@
         </div>
 
  
+    <div class="container">
+      <p>adasdasdasdadasdasdasdasdsadsadasds</p>
+    </div> 
 
 
-
-<!-- JavaScript Libraries -->
- <script src="lib/jquery/jquery.min.js"></script>
- <script src="lib/jquery/jquery-migrate.min.js"></script>
- <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
- <script src="js/home.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/home.js"></script>
 
 
 </body>
