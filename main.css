@@ -381,10 +381,10 @@ body {
 }
 .home-page h1 {
     color: #000;
-    font-size: 56px;
+    font-size: 36px;
     line-height: 53px;
     margin: 0;
-    font-family: font-file-82132;
+    font-family:Arial Narrow, sans-serif;
     font-weight: normal;
 }
 
@@ -394,8 +394,8 @@ body {
     color: #515152;
     font-size: 18px;
     position: absolute;
-    margin-top: -35px;
-    margin-bottom: 10px;
+    margin-top: -55px;
+
 }
 .home-page h1:after {
     content: '<h1/>';
@@ -409,7 +409,7 @@ body {
     animation: myanim2 1s 1.7s backwards;
 }
 .home-page h2 {
-    color:#8d8d8d;
+    color:#181818;
     margin-top: 9px;
     font-weight: normal;
     font-size: 11px;
@@ -650,10 +650,14 @@ body {
     font-size: 56px;
     line-height: 53px;
     margin: 0;
-    font-family: font-file-82132;
+    font-family: OCR A Std, monospace;
     font-weight: normal;
 }
 
+#about-page .text-zone p {
+    font-family: Courier New, monospace;
+    font-size: 15px !important;
+}
 .about-btn {
     position: absolute;
     display: inline-block;
@@ -708,8 +712,8 @@ body {
     left: 0;
 }
 
-.me-btn {
-    background-color:;
+.games-btn {
+    
     height: 250px;
     width: 200px;
     right:0;
@@ -722,7 +726,7 @@ body {
     border-bottom-left-radius: 10px;
 }
 
-.me-btn:after {
+.games-btn:after {
     font-family: fantasy;
     content: 'GAMES';
     background: #08fdd8;
@@ -738,11 +742,11 @@ body {
   
 }
 
-.me-btn:hover {
+.games-btn:hover {
     transform: translateX(0px);
 }
 
-.me-btn p {
+.games-btn p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     padding-left: 10px;

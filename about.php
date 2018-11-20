@@ -37,10 +37,13 @@
         </div>
 
     <div id="page" class="en">
-        
-        <button class="about-btn"><i class="fa fa-fw fa-user" aria-hidden="true">About Me </i></button>
+
+    
+
+
+        <button class="about-btn">About Me </i></button>
         <div id="about-page">
-        <div class="me-btn">
+        <div class="games-btn">
             <p> Dota 2</p>
             <p> PUBG </p>
             <p> Ragnarok </p>
@@ -50,9 +53,10 @@
         </div>
         
             <div class="text-zone">
+                <h1> About Me </h1>
                 <p>My name is Shyra Culla, I am a Fresh Graduate from Datamex College of Saint Adeline<br>
-                I have a 6 months experience in Web Development.
-                I may not good in English language but I can assure you that I can express myself by the use of Programming Languages</p>
+                I have a 6 months working experience in Web Development.
+                I may not good in English language but I can assure you that I can express myself by the use of Programming Languages.</p>
                 
             </div>
         </div>
