@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Shyra Basas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
@@ -39,12 +39,9 @@
     </div>
     <div id="page" class="en">
         <div class="container home-page" style="opacity: 1; transform:matrix(1,0,0,1,0,0);">
-            <span class="tags top-tags">&nbsp;&nbsp;&nbsp;<body></span>
+           
             <div class="text-zone">
-            <span class="tags bottom-tags">&nbsp;&nbsp;&nbsp;<?php echo "</body>"?>;
-                <br>
-                " </html> " </span>
-
+            
                 
                <h1 aria-label="Hi, I'm Shyra, Web Developer." class="blast-root">
                    <span class="blast" aria-hidden="true" style="opacity:1;">H</span>
