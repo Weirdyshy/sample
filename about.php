@@ -9,8 +9,7 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <!-- MAIN JAVASCRIPT -->
-    <script src="js/main.js"></script>
+    
 
 </head>
 <body>
@@ -38,16 +37,20 @@
         </div>
 
  
-   
+    <div class="about-page">
       <button class="about-btn">About Me </button>
+      <h1>I'm Shyra a&nbsp;<span class="write"></span></h1>
+            <p>Web Developer | Programmer | Gamer</p>
   
+    </div>
 
-
-    <!-- JavaScript Libraries -->
+     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+    <script src="lib/typed/typed.js"></script>
+    <!-- MAIN JAVASCRIPT -->
+    <script src="js/main.js"></script>
 
 
 </body>

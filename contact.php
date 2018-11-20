@@ -9,8 +9,7 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <!-- MAIN JAVASCRIPT -->
-    <script src="js/main.js"></script>
+   
 
 </head>
 <body>
@@ -41,10 +40,14 @@
 
 
 
-<!-- JavaScript Libraries -->
- <script src="lib/jquery/jquery.min.js"></script>
- <script src="lib/jquery/jquery-migrate.min.js"></script>
- <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+     <!-- JavaScript Libraries -->
+     <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.js"></script>
+    <!-- MAIN JAVASCRIPT -->
+    <script src="js/main.js"></script>
 
 
 

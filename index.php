@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <script src="js/main.js"></script>
+    
     
     
 </head>
@@ -41,7 +41,7 @@
         <div class="container home-page" style="opacity: 1; transform:matrix(1,0,0,1,0,0);">
            
             <div class="text-zone">
-            
+          
                 
                <h1 aria-label="Hi, I'm Shyra, Web Developer." class="blast-root">
                    <span class="blast" aria-hidden="true" style="opacity:1;">H</span>
@@ -88,9 +88,12 @@
     
  <!-- JavaScript Libraries -->
  <script src="lib/jquery/jquery.min.js"></script>
- <script src="lib/jquery/jquery-migrate.min.js"></script>
- <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
 
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
 </body>
 </html>

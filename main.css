@@ -622,8 +622,14 @@ body {
     display: block;
 }
 
+/*----------------------------------------------------------------------------------*/
+/*  ABOUT ME 
+/*-----------------------------------------------------------------------------------*/
 
-/*  BUTTONS ANIMATION */
+.about-page {
+    margin-left: 70px;
+    background: #00aff1;
+}
 .about-btn {
     position: relative;
     display: inline-block;
@@ -675,4 +681,41 @@ body {
 .about-btn:hover:after {
     opacity: 1;
     left: 0;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+/*  Typed css
+/*-----------------------------------------------------------------------------------*/
+
+.write{
+    font-size: 40px;
+    color: yellow;
+   
+}
+
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: blue;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
