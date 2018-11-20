@@ -40,7 +40,14 @@
         
         <button class="about-btn"><i class="fa fa-fw fa-user" aria-hidden="true">About Me </i></button>
         <div id="about-page">
-        <div class="me-btn"><i class="fa fa-fw fa-user" aria-hidden="true"></i></div>
+        <div class="me-btn">
+            <p> Dota 2</p>
+            <p> PUBG </p>
+            <p> Ragnarok </p>
+            <p> PointBlank </p>
+            <p> Assault Fire </p>
+
+        </div>
         
             <div class="text-zone">
                 <p>My name is Shyra Culla, I am a Fresh Graduate from Datamex College of Saint Adeline<br>
