@@ -12,17 +12,17 @@
     
 </head>
 <body>
-    <div class="containter">
+   
         <div id="nav_bar">
             <a class="logo" rel="index" href="index.html"> </a>
             <img src="/img/me.jpg" alt="logo" />
             <img src="/img/me.jpg" alt="logo"/>
             <nav class="en">
-                <a rel="index" href="index.html" class="home-link active"> <i class="fa fa-fw fa-home" aria-hidden="true"></i> </a>  
-                <a href="#about" class=""><i class="fa fa-fw fa-user" aria-hidden="true"></i></a>
-                <a href="#skills" class=""><i class="fa fa-fw fa-wrench" aria-hidden="true"></i> </a>
-                <a href="#mywork" class=""><i class="fa fa-briefcase" aria-hidden="true"></i></a>
-                <a href="#contact" class=""><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> </a>
+                <a rel="index" href="index.php" class="home-link active"> <i class="fa fa-fw fa-home" aria-hidden="true"></i> </a>  
+                <a href="about.php" class=""><i class="fa fa-fw fa-user" aria-hidden="true"></i></a>
+                <a href="skills.php" class=""><i class="fa fa-fw fa-wrench" aria-hidden="true"></i> </a>
+                <a href="works.php" class=""><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+                <a href="contact.php" class=""><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> </a>
             </nav>
 
             <ul>
@@ -36,7 +36,7 @@
         </div>
 
  
-    </div>
+
     <div id="page" class="en">
         <div class="container home-page" style="opacity: 1; transform:matrix(1,0,0,1,0,0);">
            
@@ -75,13 +75,9 @@
                <a rel="contact" href="#" class="flat-button">CONTACT ME</a>
             </div>
         
-            <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+
+
+
 
 
     </div>    
