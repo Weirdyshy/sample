@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shyra Basas | About Me</title>
-
+    
     <!-- MAIN CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
@@ -36,12 +36,19 @@
            
         </div>
 
- 
-    <div class="about-page">
-      <button class="about-btn">About Me </button>
-      <h1>I'm Shyra a&nbsp;<span class="write"></span></h1>
-            <p>Web Developer | Programmer | Gamer</p>
-  
+    <div id="page" class="en">
+        
+        <button class="about-btn"><i class="fa fa-fw fa-user" aria-hidden="true">About Me </i></button>
+        <div id="about-page">
+        <div class="me-btn"><i class="fa fa-fw fa-user" aria-hidden="true"></i></div>
+        
+            <div class="text-zone">
+                <p>My name is Shyra Culla, I am a Fresh Graduate from Datamex College of Saint Adeline<br>
+                I have a 6 months experience in Web Development.
+                I may not good in English language but I can assure you that I can express myself by the use of Programming Languages</p>
+                
+            </div>
+        </div>
     </div>
 
      <!-- JavaScript Libraries -->

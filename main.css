@@ -115,10 +115,10 @@ h1 {
 }
 .text-zone p {
     font-size: 14px !important;
-    color:#fff;
+    color:#000;
 }
 body {
-    background: #252627;
+    background: #ffffff;
     overflow: hidden;
     display: block;
     font-family: 'Josefin Sans', Verdana, Geneva, sans-serif;
@@ -355,10 +355,10 @@ body {
 }
 .text-zone p a:hover span,
 .text-zone p a:hover {
-    color: #fff;
+    color: #000;
 }
 .text-zone h2 {
-    color:#fff;
+    color:#000;
     font-size:16px;
 
 }
@@ -380,7 +380,7 @@ body {
     font-weight: normal;
 }
 .home-page h1 {
-    color: #fff;
+    color: #000;
     font-size: 56px;
     line-height: 53px;
     margin: 0;
@@ -625,13 +625,37 @@ body {
 /*----------------------------------------------------------------------------------*/
 /*  ABOUT ME 
 /*-----------------------------------------------------------------------------------*/
-
-.about-page {
-    margin-left: 70px;
-    background: #00aff1;
+#about-page {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+   
+   
 }
+#about-page .text-zone  {
+    position: absolute;
+    left:10%;
+    top: 20%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+}
+#about-page .text-zone a {
+    font-weight: normal;
+}
+#about-page h1 {
+    color: #000;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: font-file-82132;
+    font-weight: normal;
+}
+
 .about-btn {
-    position: relative;
+    position: absolute;
     display: inline-block;
     text-decoration: none;
     color: #333;
@@ -644,6 +668,7 @@ body {
     z-index: 1;
     overflow: hidden;
     cursor: pointer;
+    left:50%;
 }
 
 .about-btn:before {
@@ -682,6 +707,32 @@ body {
     opacity: 1;
     left: 0;
 }
+
+.me-btn {
+    background-color: deepskyblue;
+    height: 50vh;
+    width: 200px;
+   right:0;
+    position: absolute;
+    transform: translateX(200px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.me-btn:after {
+    content: '';
+    background: rgb(225, 0, 255);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: -40px;
+    top: 40px;
+    border-radius: 50%; 
+
+}
+
+.me-btn:hover {
+    transform: translateX(0px);
+  }
 
 
 
