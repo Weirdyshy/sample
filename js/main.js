@@ -116,3 +116,20 @@ app.home = {
     }
 
 }
+
+//===============================================//
+// TYPED JS 
+// ==============================================//
+$(function(){
+    $(".write").typed({
+        strings: [
+            "WEB DEVELOPER",
+            "PROGRAMMER",
+            "GAMER"
+        ],
+        
+        typeSpeed: 400,
+        //backDelay: 200,
+        loop: true
+    });
+});
