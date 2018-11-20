@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
     
     
 </head>
 <body>
    
         <div id="nav_bar">
-            <a class="logo" rel="index" href="index.html"> </a>
+            <a class="logo" rel="index" href="index.php"> </a>
             <img src="/img/me.jpg" alt="logo" />
             <img src="/img/me.jpg" alt="logo"/>
             <nav class="en">
@@ -90,7 +90,7 @@
  <script src="lib/jquery/jquery.min.js"></script>
  <script src="lib/jquery/jquery-migrate.min.js"></script>
  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
- <script src="js/home.js"></script>
+
 
 </body>
 </html>
